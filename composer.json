@@ -1,0 +1,28 @@
+{
+    "name": "dunaev/fast-route-engine",
+    "type": "library",
+    "require": {
+        "http-interop/http-middleware": "^0.4.1",
+        "guzzlehttp/psr7": "^1.4",
+        "psr/http-message": "^1.0",
+        "nikic/fast-route": "^1.2",
+        "symfony/dependency-injection": "^3.3",
+        "symfony/yaml": "^3.3",
+        "symfony/expression-language": "^3.3",
+        "symfony/config": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "Alexander Dunaev",
+            "email": "alexander.dunaev@together.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AdServer\\Engine\\": "src"
+        }
+    },
+    "classmap": [
+        "src"
+    ],
+}
